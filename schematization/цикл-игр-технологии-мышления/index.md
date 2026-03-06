@@ -11,13 +11,13 @@ original_url: "https://sites.google.com/view/schemata/%D1%86%D0%B8%D0%BA%D0%BB-%
 
       ## Календарь цикла игр "Технологии мышления" 2014-2020
 
-      ![Календарь цикла игр 2014-2020](../images/cycle_5.jpg)
+        ![Календарь цикла игр 2014-2020](../images/cycle_5.jpg)
 
-      ![График подготовки](../images/cycle_6.jpg)
+        ![График подготовки](../images/cycle_6.jpg)
 
-      ![Структура работы](../images/cycle_7.jpg)
+        ![Структура работы](../images/cycle_7.jpg)
 
-      ![Организационная схема](../images/cycle_8.jpg)
+        ![Организационная схема](../images/cycle_8.jpg)
 
       [Открыть в максимальном
           качестве](https://drive.google.com/file/d/0B5zcQJxvqTNha2ZWU1ZLUGRzaU0/view?usp=sharing)

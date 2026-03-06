@@ -5,23 +5,21 @@ original_url: "https://sites.google.com/view/schemata/%D0%B1%D0%B8%D0%B1%D0%BB%D
 
 # Библиотека
 
-      ![Базовые схемы](../images/library_58.jpg)
+        ![Базовые схемы](../images/library_58.jpg)
 
-      ![Игровая педагогика](../images/library_59.jpg)
+        ![Игровая педагогика](../images/library_59.jpg)
 
-      ![Технология мышления](../images/library_60.jpg)
+        ![Технология мышления](../images/library_60.jpg)
 
-      ![Метапредмет Знак](../images/library_61.jpg)
+        ![Метапредмет Знак](../images/library_61.jpg)
 
-      ![Обучение схематизации](../images/library_62.jpg)
+        ![Обучение схематизации](../images/library_62.jpg)
 
-      ![Схемы как средство](../images/library_63.jpg)
+        ![Схемы как средство](../images/library_63.jpg)
 
-      ![Китайские стратагемы](../images/library_64.jpg)
+        ![Китайские стратагемы](../images/library_64.jpg)
 
-      ![Методологический аспект](../images/library_65.jpg)
-
-      ![Базовые схемы](../images/library_58.jpg)
+        ![Методологический аспект](../images/library_65.jpg)
 
         - Александр Зинченко [«Базовые схемы и представления для методологической
             работы» («Музей схем», «Альбом схем»)](http://tiny.cc/zinchenko) — набор схем, который вел А.П.Зинченко по поручению
