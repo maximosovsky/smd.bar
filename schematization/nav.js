@@ -26,6 +26,18 @@ document.addEventListener('DOMContentLoaded', function () {
     // Auto-open parent menus for active page
     var active = document.querySelector('.sidebar a.active');
     if (active) {
+        // Open sibling sub-menu (e.g. Осовский subpages)
+        var siblingMenu = active.nextElementSibling;
+        if (siblingMenu && siblingMenu.classList.contains('sub-menu')) {
+            siblingMenu.classList.add('open');
+        }
+        // Also check inside parent li
+        var parentLi = active.closest('li');
+        if (parentLi) {
+            var childMenu = parentLi.querySelector(':scope > .sub-menu');
+            if (childMenu) childMenu.classList.add('open');
+        }
+        // Open all ancestor sub-menus
         var parent = active.closest('.sub-menu');
         while (parent) {
             parent.classList.add('open');
