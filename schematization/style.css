@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
@@ -24,8 +28,9 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .site-header .logo {
   font-size: 22px;
   font-weight: 400;
@@ -33,6 +38,7 @@ body {
   color: #fff;
   letter-spacing: 0.5px;
 }
+
 .hamburger {
   display: none;
   background: none;
@@ -62,13 +68,15 @@ body {
   position: sticky;
   top: 64px;
 }
+
 .sidebar nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.sidebar nav > ul > li > a,
-.sidebar nav > ul > li > .nav-toggle {
+
+.sidebar nav>ul>li>a,
+.sidebar nav>ul>li>.nav-toggle {
   display: flex;
   align-items: center;
   padding: 8px 24px;
@@ -82,21 +90,28 @@ body {
   width: 100%;
   text-align: left;
 }
-.sidebar nav > ul > li > a:hover,
-.sidebar nav > ul > li > .nav-toggle:hover {
+
+.sidebar nav>ul>li>a:hover,
+.sidebar nav>ul>li>.nav-toggle:hover {
   background: #e8eaed;
 }
-.sidebar nav > ul > li > a.active {
+
+.sidebar nav>ul>li>a.active {
   background: #d2e3fc;
   color: #1a73e8;
   font-weight: 700;
 }
+
 /* Nested */
 .sidebar .sub-menu {
   display: none;
   padding-left: 0;
 }
-.sidebar .sub-menu.open { display: block; }
+
+.sidebar .sub-menu.open {
+  display: block;
+}
+
 .sidebar .sub-menu li a {
   display: block;
   padding: 6px 24px 6px 44px;
@@ -104,23 +119,32 @@ body {
   text-decoration: none;
   font-size: 13px;
 }
-.sidebar .sub-menu li a:hover { background: #e8eaed; }
+
+.sidebar .sub-menu li a:hover {
+  background: #e8eaed;
+}
+
 .sidebar .sub-menu li a.active {
   background: #d2e3fc;
   color: #1a73e8;
   font-weight: 700;
 }
+
 /* Deep nested */
 .sidebar .sub-menu .sub-menu li a {
   padding-left: 64px;
   font-size: 12px;
 }
+
 .nav-toggle .arrow {
   margin-left: auto;
   font-size: 10px;
   transition: transform 0.2s;
 }
-.nav-toggle.open .arrow { transform: rotate(90deg); }
+
+.nav-toggle.open .arrow {
+  transform: rotate(90deg);
+}
 
 /* Main content */
 .main-content {
@@ -128,6 +152,7 @@ body {
   padding: 32px 48px;
   max-width: 900px;
 }
+
 .main-content h1 {
   font-size: 32px;
   font-weight: 400;
@@ -136,40 +161,62 @@ body {
   padding-bottom: 12px;
   border-bottom: 1px solid #dadce0;
 }
+
 .main-content h2 {
   font-size: 22px;
   font-weight: 400;
   color: #202124;
   margin: 28px 0 16px;
 }
+
 .main-content h3 {
   font-size: 18px;
   font-weight: 500;
   color: #202124;
   margin: 20px 0 12px;
 }
+
 .main-content p {
   margin-bottom: 12px;
   line-height: 1.7;
 }
+
 .main-content a {
   color: #1a73e8;
   text-decoration: none;
 }
-.main-content a:hover { text-decoration: underline; }
-.main-content ol, .main-content ul {
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+.main-content ol,
+.main-content ul {
   margin: 12px 0;
   padding-left: 28px;
 }
-.main-content li { margin-bottom: 8px; }
+
+.main-content li {
+  margin-bottom: 8px;
+}
+
 .main-content hr {
   border: none;
   border-top: 1px solid #dadce0;
   margin: 24px 0;
 }
+
 .content-block {
   margin-bottom: 24px;
 }
+
+.site-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
 .legend {
   margin-top: 24px;
   padding: 16px;
@@ -178,7 +225,10 @@ body {
   font-size: 13px;
   border: 1px solid #dadce0;
 }
-.legend p { margin-bottom: 4px; }
+
+.legend p {
+  margin-bottom: 4px;
+}
 
 /* Footer */
 .site-footer {
@@ -192,7 +242,10 @@ body {
 
 /* Mobile */
 @media (max-width: 900px) {
-  .hamburger { display: block; }
+  .hamburger {
+    display: block;
+  }
+
   .sidebar {
     position: fixed;
     left: -300px;
@@ -200,17 +253,27 @@ body {
     height: calc(100vh - 64px);
     z-index: 99;
     transition: left 0.3s;
-    box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
   }
-  .sidebar.open { left: 0; }
+
+  .sidebar.open {
+    left: 0;
+  }
+
   .sidebar-overlay {
     display: none;
     position: fixed;
     inset: 0;
     top: 64px;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     z-index: 98;
   }
-  .sidebar-overlay.open { display: block; }
-  .main-content { padding: 24px 16px; }
+
+  .sidebar-overlay.open {
+    display: block;
+  }
+
+  .main-content {
+    padding: 24px 16px;
+  }
 }
